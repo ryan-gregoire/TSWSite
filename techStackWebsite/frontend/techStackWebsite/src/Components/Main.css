@@ -7,6 +7,22 @@
   /* height: 100px; */
 }
 
+.about-US {
+  width: 900px;
+  text-align: center;
+  background-color: #375fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  position: relative;
+  top: 99vh;
+}
+
+.about-US p {
+  color: #202020;
+  font-weight: 600;
+}
 header li a {
   padding: 24px;
   margin: 1rem;

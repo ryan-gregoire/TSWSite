@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import AboutCompany from "./AboutCompany";
 
 export default function MyHeader() {
   const name = "Ryan";
@@ -189,15 +190,15 @@ export default function MyHeader() {
         <div>
           <FooterText style={{ textAlign: "center" }}>
             <FooterParagrah>
-              I am {name} And I am a Programmer with 4 Years Of Experience in
-              Web Dev Technologies Such As
-              <div className="stack">
-                <Stack>| 1: REACT |</Stack>
-                <Stack>| 2: TSX |</Stack>
-                <Stack>| 3: MongoDB |</Stack>
+              <div className="para">
+                I am {name} And I am a Programmer with 4 Years Of Experience in
+                Web Dev Technologies Such As
               </div>
+              <div className="stack"></div>
             </FooterParagrah>
           </FooterText>
+
+          <AboutCompany></AboutCompany>
         </div>
 
         <Footer>
