@@ -71,6 +71,18 @@ h2 {
   /* margin-left: 00px; */
 }
 
+svg {
+  /* display: flex; */
+  /* height: 500px; */
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+#circle:nth-of-type(3) svg {
+  margin-top: 30px;
+}
+
 .stack {
   display: grid;
   margin: 10px auto;
