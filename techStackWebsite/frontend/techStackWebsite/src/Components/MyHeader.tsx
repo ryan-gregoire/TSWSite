@@ -33,7 +33,7 @@ export default function MyHeader() {
 
   const FooterText = styled.div`
     // position relative;
-    margin-top: 90vh;
+    margin-top: 10vh;
     // top: 900vh;
     width: 500px;
     font-family: sans-serif;
@@ -48,7 +48,7 @@ export default function MyHeader() {
 
   const FooterParagrah = styled.p`
     position: relative;
-    top: 900px;
+    top: 550px;
     max-width: 900px;
   `;
 
@@ -83,7 +83,7 @@ export default function MyHeader() {
   const Footer = styled.footer`
     padding: 8px;
     background: #375fff;
-    margin-top: 200vh;
+    margin-top: 80vh;
     text-align: center;
     font-family: sans-serif;
   `;
@@ -199,11 +199,11 @@ export default function MyHeader() {
           </FooterText>
 
           <AboutCompany></AboutCompany>
-        </div>
 
-        <Footer>
-          <FooterLink>&copy; 2024 TechStackWeb</FooterLink>
-        </Footer>
+          <Footer>
+            <FooterLink>&copy; 2024 TechStackWeb</FooterLink>
+          </Footer>
+        </div>
       </main>
     </div>
   );

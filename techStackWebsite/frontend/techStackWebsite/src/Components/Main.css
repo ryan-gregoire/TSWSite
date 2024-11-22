@@ -16,7 +16,7 @@
   margin: 0 auto;
   font-family: sans-serif;
   position: relative;
-  top: 99vh;
+  top: 59vh;
 }
 
 .about-US p {
@@ -70,7 +70,11 @@ hr {
   /* margin: 0 auto; */
   position: relative;
   margin: 2rem auto;
-  top: 500px;
+  top: 480px;
+}
+
+.about-US {
+  width: 650px;
 }
 
 h2 {
@@ -79,7 +83,7 @@ h2 {
   font-size: 20px;
   margin-right: 300px;
   position: relative;
-  top: 120px;
+  top: 190px;
   letter-spacing: 3px;
   /* font-size: 21px; */
   margin: 9rem 10rem;
@@ -110,13 +114,17 @@ svg {
 
 body {
   background-color: #121212;
-  height: 200vh;
+  /* height: 200vh; */
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 500px) {
   header li a {
     display: none;
+  }
+
+  .about-US {
+    width: 450px;
   }
 
   .stack {
@@ -141,6 +149,10 @@ body {
 @media screen and (max-width: 501px) {
   header li a {
     display: none;
+  }
+
+  .about-US p {
+    width: 430px;
   }
 
   .stack {
@@ -182,6 +194,10 @@ body {
 @media screen and (max-width: 768px) {
   header li a {
     display: none;
+  }
+
+  .about-US {
+    width: 450px;
   }
 
   .stack {
